@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="CkiLq3" name="pastelBLUR" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" companyName="LileyWorks"
+              companyEmail="peterandrewliley@gmail.com" companyWebsite="peterliley.com"
+              pluginManufacturerCode="LILw" pluginCode="Pblr" pluginVST3Category="Reverb"
+              headerPath="PALdata/PALdsp/*&#10;PALdata/PALlookandfeel/*">
+  <MAINGROUP id="tXs9uE" name="pastelBLUR">
+    <GROUP id="{D958A4CD-9082-8D1E-F157-8D5CCBCBC5DD}" name="assets">
+      <FILE id="CZmCpQ" name="box_side.png" compile="0" resource="1" file="Resources/assets/box_side.png"/>
+      <FILE id="NuHjQQ" name="box_top.png" compile="0" resource="1" file="Resources/assets/box_top.png"/>
+      <FILE id="rusRCO" name="corner.png" compile="0" resource="1" file="Resources/assets/corner.png"/>
+      <FILE id="oiZqsD" name="knob_blue_noline.png" compile="0" resource="1"
+            file="Resources/assets/knob_blue_noline.png"/>
+      <FILE id="PHnGkR" name="knob_pink_noline.png" compile="0" resource="1"
+            file="Resources/assets/knob_pink_noline.png"/>
+      <FILE id="tRDfLK" name="Slider_bg.png" compile="0" resource="1" file="Resources/assets/Slider_bg.png"/>
+      <FILE id="F7w23D" name="slider_thumb.png" compile="0" resource="1"
+            file="Resources/assets/slider_thumb.png"/>
+      <FILE id="NFGH3b" name="Slider_track.png" compile="0" resource="1"
+            file="Resources/assets/Slider_track.png"/>
+    </GROUP>
+    <GROUP id="{12017732-0DFF-E41F-23FC-75134A2BC95B}" name="fonts">
+      <FILE id="KvtdEB" name="OPTIMA.TTF" compile="0" resource="1" file="Resources/fonts/OPTIMA.TTF"/>
+      <FILE id="HgsBlX" name="OPTIMA_BOLD.TTF" compile="0" resource="1" file="Resources/fonts/OPTIMA_BOLD.TTF"/>
+    </GROUP>
+    <GROUP id="{6BA5DB13-F8A3-7E09-C1AB-E36941097BCD}" name="Source">
+      <GROUP id="{48104437-523F-E467-1927-95EB644D9472}" name="PALdata">
+        <GROUP id="{357341CE-B189-F363-5720-59AC89605942}" name="PALdsp">
+          <FILE id="p2OqRE" name="AllPassFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/AllPassFilter.h"/>
+          <FILE id="bRN6Pb" name="Biquad.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Biquad.h"/>
+          <FILE id="H4FVX0" name="BitCrush.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BitCrush.h"/>
+          <FILE id="l2SINs" name="BPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BPF.h"/>
+          <FILE id="H7eQbk" name="CircularBuffer.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/CircularBuffer.h"/>
+          <FILE id="vNIxCd" name="CircularBufferLong.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/CircularBufferLong.h"/>
+          <FILE id="nUJMUi" name="CircularBufferShort.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/CircularBufferShort.h"/>
+          <FILE id="UlU6Zo" name="FeedbackCombFilter.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/FeedbackCombFilter.h"/>
+          <FILE id="EXhrez" name="filter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/filter.h"/>
+          <FILE id="p1fpDF" name="Gain.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Gain.h"/>
+          <FILE id="Fa0R4L" name="HighShelfFilter.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/HighShelfFilter.h"/>
+          <FILE id="aV1OD7" name="HPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/HPF.h"/>
+          <FILE id="bd2Cq8" name="LFO.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LFO.h"/>
+          <FILE id="qVY6So" name="LowpassFeedbackCombFilter.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/LowpassFeedbackCombFilter.h"/>
+          <FILE id="mtIFzE" name="LowShelfFilter.h" compile="0" resource="0"
+                file="Source/PALdata/PALdsp/LowShelfFilter.h"/>
+          <FILE id="PTghPj" name="LPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LPF.h"/>
+          <FILE id="zTDqS6" name="NotchFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/NotchFilter.h"/>
+          <FILE id="i9wVjt" name="PALdsp.h" compile="0" resource="0" file="Source/PALdata/PALdsp/PALdsp.h"/>
+          <FILE id="QxtFAg" name="ParamEQBand.h" compile="0" resource="0" file="Source/PALdata/PALdsp/ParamEQBand.h"/>
+        </GROUP>
+        <GROUP id="{1B3E4CCC-EA8B-949A-A57A-F7460C43BFC6}" name="PALlookandfeel">
+          <FILE id="aY0X3A" name="PAL_LookAndFeel_V1.h" compile="0" resource="0"
+                file="Source/PALdata/PALlookandfeel/PAL_LookAndFeel_V1.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="Si9OYX" name="PALrev.h" compile="0" resource="0" file="Source/PALrev.h"/>
+      <FILE id="y21Yx9" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="TXRygV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="PWPTeK" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="gJBQIq" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="pastelBLUR"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="pastelBLUR"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
