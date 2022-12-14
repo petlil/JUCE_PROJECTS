@@ -27,45 +27,45 @@
     <GROUP id="{6BA5DB13-F8A3-7E09-C1AB-E36941097BCD}" name="Source">
       <GROUP id="{48104437-523F-E467-1927-95EB644D9472}" name="PALdata">
         <GROUP id="{357341CE-B189-F363-5720-59AC89605942}" name="PALdsp">
-          <FILE id="p2OqRE" name="AllPassFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/AllPassFilter.h"/>
-          <FILE id="bRN6Pb" name="Biquad.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Biquad.h"/>
-          <FILE id="H4FVX0" name="BitCrush.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BitCrush.h"/>
-          <FILE id="l2SINs" name="BPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BPF.h"/>
-          <FILE id="H7eQbk" name="CircularBuffer.h" compile="0" resource="0"
+          <FILE id="SYORtW" name="AllPassFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/AllPassFilter.h"/>
+          <FILE id="yQyj9J" name="Biquad.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Biquad.h"/>
+          <FILE id="jXUmac" name="BitCrush.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BitCrush.h"/>
+          <FILE id="Fc7kF6" name="BPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/BPF.h"/>
+          <FILE id="dQPxvp" name="CircularBuffer.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/CircularBuffer.h"/>
-          <FILE id="vNIxCd" name="CircularBufferLong.h" compile="0" resource="0"
+          <FILE id="qQ4rYy" name="CircularBufferLong.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/CircularBufferLong.h"/>
-          <FILE id="nUJMUi" name="CircularBufferShort.h" compile="0" resource="0"
+          <FILE id="WTECMP" name="CircularBufferShort.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/CircularBufferShort.h"/>
-          <FILE id="UlU6Zo" name="FeedbackCombFilter.h" compile="0" resource="0"
+          <FILE id="uDYvhV" name="FeedbackCombFilter.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/FeedbackCombFilter.h"/>
-          <FILE id="EXhrez" name="filter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/filter.h"/>
-          <FILE id="p1fpDF" name="Gain.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Gain.h"/>
-          <FILE id="Fa0R4L" name="HighShelfFilter.h" compile="0" resource="0"
+          <FILE id="akFDWF" name="filter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/filter.h"/>
+          <FILE id="a4RcIJ" name="Gain.h" compile="0" resource="0" file="Source/PALdata/PALdsp/Gain.h"/>
+          <FILE id="vjtyQI" name="HighShelfFilter.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/HighShelfFilter.h"/>
-          <FILE id="aV1OD7" name="HPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/HPF.h"/>
-          <FILE id="bd2Cq8" name="LFO.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LFO.h"/>
-          <FILE id="qVY6So" name="LowpassFeedbackCombFilter.h" compile="0" resource="0"
+          <FILE id="emHUEE" name="HPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/HPF.h"/>
+          <FILE id="DwLxiI" name="LFO.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LFO.h"/>
+          <FILE id="BCva79" name="LowpassFeedbackCombFilter.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/LowpassFeedbackCombFilter.h"/>
-          <FILE id="mtIFzE" name="LowShelfFilter.h" compile="0" resource="0"
+          <FILE id="jIduZS" name="LowShelfFilter.h" compile="0" resource="0"
                 file="Source/PALdata/PALdsp/LowShelfFilter.h"/>
-          <FILE id="PTghPj" name="LPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LPF.h"/>
-          <FILE id="zTDqS6" name="NotchFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/NotchFilter.h"/>
-          <FILE id="i9wVjt" name="PALdsp.h" compile="0" resource="0" file="Source/PALdata/PALdsp/PALdsp.h"/>
-          <FILE id="QxtFAg" name="ParamEQBand.h" compile="0" resource="0" file="Source/PALdata/PALdsp/ParamEQBand.h"/>
+          <FILE id="gXvTYy" name="LPF.h" compile="0" resource="0" file="Source/PALdata/PALdsp/LPF.h"/>
+          <FILE id="SIlzLI" name="NotchFilter.h" compile="0" resource="0" file="Source/PALdata/PALdsp/NotchFilter.h"/>
+          <FILE id="FDod01" name="PALdsp.h" compile="0" resource="0" file="Source/PALdata/PALdsp/PALdsp.h"/>
+          <FILE id="XwPXOY" name="ParamEQBand.h" compile="0" resource="0" file="Source/PALdata/PALdsp/ParamEQBand.h"/>
         </GROUP>
         <GROUP id="{1B3E4CCC-EA8B-949A-A57A-F7460C43BFC6}" name="PALlookandfeel">
-          <FILE id="aY0X3A" name="PAL_LookAndFeel_V1.h" compile="0" resource="0"
+          <FILE id="At10Vr" name="PAL_LookAndFeel_V1.h" compile="0" resource="0"
                 file="Source/PALdata/PALlookandfeel/PAL_LookAndFeel_V1.h"/>
         </GROUP>
       </GROUP>
-      <FILE id="Si9OYX" name="PALrev.h" compile="0" resource="0" file="Source/PALrev.h"/>
-      <FILE id="y21Yx9" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="gBBAIE" name="PALrev.h" compile="0" resource="0" file="Source/PALrev.h"/>
+      <FILE id="fSBKld" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="TXRygV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
-      <FILE id="PWPTeK" name="PluginProcessor.cpp" compile="1" resource="0"
+      <FILE id="BbJbzK" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="XxtVhH" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="gJBQIq" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="CI5pUz" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
     </GROUP>
   </MAINGROUP>
